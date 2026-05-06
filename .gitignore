@@ -1,0 +1,15 @@
+﻿# Logs et outputs (données, pas du code)
+/logs/
+/output/
+/input/
+
+# Fichiers temporaires Hop
+*.log
+*.tmp
+
+# Fichiers système Windows
+Thumbs.db
+desktop.ini
+
+# Variables sensibles (mots de passe, etc.)
+environments/prod.json

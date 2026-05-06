@@ -1,0 +1,51 @@
+{
+  "variables" : [
+    {
+      "name" : "DB_HOST",
+      "value" : "localhost",
+      "description" : "Serveur de base de données"
+    },
+    {
+      "name" : "DB_PORT",
+      "value" : "3306",
+      "description" : "Port MySQL"
+    },
+    {
+      "name" : "DB_NAME",
+      "value" : "belife_website",
+      "description" : "Nom de la base de données"
+    },
+    {
+      "name" : "DB_USER",
+      "value" : "root",
+      "description" : "Utilisateur BDD"
+    },
+    {
+      "name" : "DB_PASSWORD",
+      "value" : "",
+      "description" : "Mot de passe BDD"
+    },
+    {
+      "name" : "PROJECT_HOME",
+      "value" : "C:\\Users\\tbongue\\workspace\\github\\belife-dt-etl",
+      "description" : "Chemin racine du projet sur cette machine"
+    },
+    {
+      "name" : "INPUT_FOLDER",
+      "value" : "${PROJECT_HOME}\\input",
+      "description" : "Dossier des fichiers sources"
+    },
+    {
+      "name" : "OUTPUT_FOLDER",
+      "value" : "${PROJECT_HOME}\\output",
+      "description" : "Dossier des fichiers de sortie"
+    },
+    {
+      "name" : "LOG_FOLDER",
+      "value" : "${PROJECT_HOME}\\logs",
+      "description" : "Dossier des logs"
+    }
+  ],
+  "name" : "projet_demo_DEV",
+  "description" : "Environnement de développement local"
+}
