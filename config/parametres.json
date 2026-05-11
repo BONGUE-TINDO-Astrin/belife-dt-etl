@@ -1,0 +1,14 @@
+{
+  "description" : "Paramètres métier du traitement mensuel des polices",
+  "derniere_modification" : "2025-01-01",
+  "modifie_par" : "admin",
+
+  "filtres" : {
+    "PERIODE_JOURS" : 7,
+    "STATUT_FILTRE" : "00"
+  },
+
+  "sortie" : {
+    "OUTPUT_FILE_PREFIX" : "AGENT"
+  }
+}

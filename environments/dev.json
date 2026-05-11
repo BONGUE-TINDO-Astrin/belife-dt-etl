@@ -1,4 +1,6 @@
 {
+  "name" : "projet_demo_DEV",
+  "description" : "Environnement de développement local",
   "variables" : [
     {
       "name" : "DB_HOST",
@@ -41,11 +43,19 @@
       "description" : "Dossier des fichiers de sortie"
     },
     {
+      "name" : "REF_FOLDER",
+      "value" : "${PROJECT_HOME}\\referentiels",
+      "description" : "Dossier des fichiers de référence (mapping, codes métier...)"
+    },
+    {
+      "name" : "CONFIG_FOLDER",
+      "value" : "${PROJECT_HOME}\\config",
+      "description" : "Dossier des fichiers de configuration paramétrable"
+    },
+    {
       "name" : "LOG_FOLDER",
       "value" : "${PROJECT_HOME}\\logs",
       "description" : "Dossier des logs"
     }
-  ],
-  "name" : "projet_demo_DEV",
-  "description" : "Environnement de développement local"
+  ]
 }
